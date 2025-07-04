@@ -10,15 +10,15 @@ DeadPixel is a **real-time API failure tracker and visual monitor** built for de
 
 ### 💻 Dashboard Preview
 
-![DeadPixel Screenshot 1](./screenshots/Screenshot%202025-07-05%20032938.png)
+![DeadPixel Screenshot 1](https://github.com/Chinmayykashyap-git/DeadPixel/blob/4ebd567ef11a8ee50b8ecf1478df75f80fee5eb9/Screenshot%202025-07-05%20032938.png)
 
 ### 📊 API Status Cards
 
-![DeadPixel Screenshot 2](./screenshots/Screenshot%202025-07-05%20032955.png)
+![DeadPixel Screenshot 2](https://github.com/Chinmayykashyap-git/DeadPixel/blob/4ebd567ef11a8ee50b8ecf1478df75f80fee5eb9/Screenshot%202025-07-05%20032955.png)
 
 ### 🧠 AI Insights for API Errors
 
-![DeadPixel Screenshot 3](./screenshots/Screenshot%202025-07-05%20033009.png)
+![DeadPixel Screenshot 3](https://github.com/Chinmayykashyap-git/DeadPixel/blob/4ebd567ef11a8ee50b8ecf1478df75f80fee5eb9/Screenshot%202025-07-05%20033009.png)
 
 ---
 
