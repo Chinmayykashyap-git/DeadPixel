@@ -20,24 +20,42 @@ DeadPixel is a **real-time API failure tracker and visual monitor** built for de
 
 ![DeadPixel Screenshot 3](https://github.com/Chinmayykashyap-git/DeadPixel/blob/4ebd567ef11a8ee50b8ecf1478df75f80fee5eb9/Screenshot%202025-07-05%20033009.png)
 
+
+
+## 📌 Problem Statements
+
+### ✅ Round 1: Ideation + Early Prototype
+
+> **Challenge**: “Solve a real-world problem using at least 3 public APIs.”  
+> We were asked to ideate, prototype, and explain a solution that uses real-world API data in a novel and meaningful way.
+
+### ✅ Round 2: Feature Expansion + Final Deployment
+
+> **Challenge**: “Add creative features like dark mode, multilingual support, animated UI, fallback systems, etc., and present the final polished app.”
+
 ---
 
-## 🚀 Features
+## 💡 Our Solution: DeadPixel
 
-### ✅ Real-Time API Monitoring
+**DeadPixel** is a real-time internet death tracker that constantly monitors the health/status of popular public APIs. It checks if an API is "Alive" or "Dead", logs results on a glitchy animated timeline, and even provides multilingual feedback in Hindi and English — making API monitoring accessible, fun, and functional for developers and enthusiasts alike.
 
-* Pings **26+ live APIs** from different services: weather, news, IP, holidays, cats, NASA, jokes, tacos, and more.
-* Tracks:
+---
 
-  * ✅ Status (`Alive` or `Dead`)
-  * ⏱️ Response Time
-  * 🔢 HTTP Code
+## ✨ Features Implemented
 
-### ✅ AI Assistance via OpenAI
+| Feature                         | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| ✅ **API Monitoring**           | Checks 25+ public APIs every 15 seconds using `axios`.                      |
+| ✅ **Live Status Cards**        | Visually display which APIs are alive (✅) or dead (❌).                     |
+| ✅ **Manual Refresh**           | Button to instantly re-check all APIs.                                     |
+| ✅ **Multilingual Support**     | Toggle between English and Hindi in real-time (localization from `translations.js`). |
+| ✅ **Dynamic Theming**          | Toggle between Dark Mode (default) and Light Mode via a custom switch.     |
+| ✅ **Glitchy Animated UI**      | Old-school terminal vibes with glitchy messages changing every few seconds.|
+| ✅ **Timeline Logging**         | Logs all major user actions (theme switch, API check, language toggle) with timestamps. |
+| ✅ **Responsive UI**            | Fully responsive layout for desktop and mobile devices.                     |
+| ✅ **Creative 404-ready logic** | Designed to plug into custom routing for future expansions.                |
 
-* Toggle **AI Assistance** to analyze errors in real time using `GPT-3.5 Turbo`
-* If an API fails, the AI gives a plain-language explanation and fix (e.g. invalid API key, endpoint expired, etc.)
-* Uses **OpenAI’s chat completions endpoint** directly from frontend — no server needed
+---
 
 ### ✅ No Backend Required
 
@@ -79,8 +97,6 @@ All APIs are monitored for liveness every **60 seconds**.
 ## 🔄 Refresh + Toggle
 
 * Hit the **"Refresh Now"** button to manually recheck all APIs
-* Use the **"Use AI Assistance"** checkbox to enable/disable GPT explanations
-
 ---
 
 ## 🛠️ Tech Stack
@@ -117,8 +133,8 @@ npm start
 
 You can deploy it on:
 
-* ✅ Vercel (Recommended)
-* ✅ Netlify
+* ✅ Vercel (CURRENTLY DEPLOYED ON IT)
+* ✅ Netlify (CURRENTLY DEPLOYED ON IT)
 * ✅ GitHub Pages (via `gh-pages` branch)
 
 
